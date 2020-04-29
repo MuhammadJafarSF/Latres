@@ -117,7 +117,6 @@ public class Contact extends JFrame {
         lblUbah.setVerticalTextPosition(SwingConstants.BOTTOM);
         lblUbah.setHorizontalTextPosition(SwingConstants.CENTER);
         lblUbah.setHorizontalAlignment(SwingConstants.CENTER);
-        lblUbah.setFont(new Font("Droid Sans", Font.BOLD, 12));
         lblUbah.setBounds(578, 172, 60, 51);
 
         lblHapus = new JLabel("Hapus");
@@ -150,7 +149,7 @@ public class Contact extends JFrame {
         lblHapus.setVerticalTextPosition(SwingConstants.BOTTOM);
         lblHapus.setHorizontalTextPosition(SwingConstants.CENTER);
         lblHapus.setHorizontalAlignment(SwingConstants.CENTER);
-        lblHapus.setFont(new Font("Droid Sans", Font.BOLD, 12));
+       
         lblHapus.setBounds(630, 172, 60, 51);
 
         lblRefresh = new JLabel("Refresh");
